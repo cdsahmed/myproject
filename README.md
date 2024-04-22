@@ -1,4 +1,4 @@
-#This is a Java superclass that represents a generic product.
+#
 
 ## Attributes
 
