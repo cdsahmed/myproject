@@ -10,7 +10,7 @@ package com.mycompany.product;
  */
 public class Order {
      private int customerId;
-    private int orderId;
+     private int orderId;
      private Product[] products;
      private float totalPrice;
 

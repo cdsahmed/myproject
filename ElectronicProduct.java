@@ -9,7 +9,7 @@ package com.mycompany.product;
  * @author TOSHIBA
  */
     public class ElectronicProduct extends Product {
-     private String brand;
+    private String brand;
      private int warrantyPeriod;
 
     public ElectronicProduct(int productId, String name, float price, String brand, int warrantyPeriod) {

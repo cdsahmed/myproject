@@ -11,7 +11,7 @@ package com.mycompany.product;
 public class Cart {
     private int customerId;
    private int nProducts;
-     private Product[] products;
+    private Product[] products;
     public Cart(int customerId, int nProducts) {
         this.customerId = Math.abs(customerId); 
         this.nProducts = Math.abs(nProducts); 
