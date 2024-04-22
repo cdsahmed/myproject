@@ -5,23 +5,23 @@
 - productId: Positive integer (will be converted to absolute value if negative)
 - name: String
 - price: Positive float (will be converted to absolute value if negative)
-brand: String
- warrantyPeriod: positive integer (else take absolute value)
-   size: String
- fabric: String
-author: String
- publisher: String
- customerId: positive integer (else take absolute value)
- name: String
- address: String
-customerId: positive integer (else take absolute value)
-nProducts: positive integer which represents the number of products (else take absolute
+-brand: String
+- warrantyPeriod: positive integer (else take absolute value)
+   -size: String
+ -fabric: String
+-author: String
+ -publisher: String
+ -customerId: positive integer (else take absolute value)
+- name: String
+- address: String
+-customerId: positive integer (else take absolute value)
+-nProducts: positive integer which represents the number of products (else take absolute
 value)
- products: an array of Product objects of size nProducts
-customerId: positive integer (else take absolute value)
-  orderId: positive integer (else take absolute value)
- products: an array of Product objects of size nProducts.
- totalPrice: positive float (else take absolute value)
+ -products: an array of Product objects of size nProducts
+-customerId: positive integer (else take absolute value)
+ - orderId: positive integer (else take absolute value)
+ -products: an array of Product objects of size nProducts.
+- totalPrice: positive float (else take absolute value)
 ## Methods
 
 - getProductId(): Returns the productId of the product.
@@ -30,9 +30,9 @@ customerId: positive integer (else take absolute value)
 - setName(String name): Sets the name of the product.
 - getPrice(): Returns the price of the product.
 - setPrice(float price): Sets the price of the product.
-Setters and getters for the attributes, addProduct, removeProduct, calculatePrice and
+-Setters and getters for the attributes, addProduct, removeProduct, calculatePrice and
 placeOrder
-printOrderInfo
+-printOrderInfo
 
 ## Usage
 
